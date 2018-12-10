@@ -1,12 +1,6 @@
 import { Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { WhoWeAreComponent } from './about/who-we-are/who-we-are.component';
-import { VisionComponent } from './about/vision/vision.component';
-import { LeadershipComponent } from './about/leadership/leadership.component';
-import { VisitComponent } from './visit/visit.component';
-import { ContactComponent } from './contact/contact.component';
-import { LiveComponent } from './live/live.component';
 
 export const appRoutes: Routes = [
   {
@@ -17,26 +11,19 @@ export const appRoutes: Routes = [
   },
   {
     path: 'about',
-    children: [
-      { path: 'who-we-are', component: WhoWeAreComponent, data: { title: 'Who We Are' } },
-      { path: 'vision', component: VisionComponent, data: { title: 'Vision' } },
-      { path: 'leadership', component: LeadershipComponent, data: { title: 'Leadership' } }
-    ]
+    loadChildren: './about/about.module#AboutModule'
   },
   {
-    path: 'visit-us',
-    component: VisitComponent,
-    data: { title: 'Visit Us' }
+    path: 'visit-us', data: { title: 'Visit Us' },
+    loadChildren: './visit/visit.module#VisitModule'
   },
   {
-    path: 'contact',
-    component: ContactComponent,
-    data: { title: 'Contact Us' }
+    path: 'contact', data: { title: 'Contact Us' },
+    loadChildren: './contact/contact.module#ContactModule'
   },
   {
-    path: 'live',
-    component: LiveComponent,
-    data: { title: 'Live' }
+    path: 'live', data: { title: 'Live' },
+    loadChildren: './live/live.module#LiveModule'
   },
   { path: '**', component: HomeComponent }
 ];

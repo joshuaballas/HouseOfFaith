@@ -2,38 +2,30 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 import { appRoutes } from './app.routes';
 
 import { MaterialModule } from './shared/material.module';
+import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { VisitComponent } from './visit/visit.component';
-import { ContactComponent } from './contact/contact.component';
-import { LiveComponent } from './live/live.component';
-import { WhoWeAreComponent } from './about/who-we-are/who-we-are.component';
-import { VisionComponent } from './about/vision/vision.component';
-import { LeadershipComponent } from './about/leadership/leadership.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent,
-    VisitComponent,
-    ContactComponent,
-    LiveComponent,
-    WhoWeAreComponent,
-    VisionComponent,
-    LeadershipComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MaterialModule,
+    SharedModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],

@@ -19,3 +19,12 @@
 footer {
   padding: 6vw;
 }
+
+p {
+  margin: 0;
+}
+
+.day {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
