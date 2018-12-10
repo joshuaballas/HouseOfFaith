@@ -1,7 +1,11 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 50px;
+}
+
+.mat-form-field {
+  width: 100%;
 }
 
 @media (max-width: 769px) {
