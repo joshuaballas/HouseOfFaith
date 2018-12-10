@@ -3,17 +3,17 @@
     <a class="col-8 col-md-4" routerLink="" style="padding: 0;">
       <img class="img-fluid" src="../../assets/images/HoF Logo.png">
     </a>
-    <button class="navbar-toggler ml-auto" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+    <button class="navbar-toggler ml-auto text-center" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
       (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav" [class.show]="!isCollapsed">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <button mat-button (click)="navigate()">Home</button>
+          <button mat-button class="menu-button" (click)="navigate()">Home</button>
         </li>
         <li class="nav-item">
-          <button mat-button [matMenuTriggerFor]="aboutMenu">About</button>
+          <button mat-button class="menu-button" [matMenuTriggerFor]="aboutMenu">About</button>
           <mat-menu #aboutMenu="matMenu">
             <button mat-menu-item (click)="navigate('/about/who-we-are')">Who We Are</button>
             <button mat-menu-item (click)="navigate('/about/vision')">Vision</button>
@@ -21,16 +21,16 @@
           </mat-menu>
         </li>
         <li class="nav-item">
-          <button mat-button (click)="navigate('/visit-us')">Visit Us</button>
+          <button mat-button class="menu-button" (click)="navigate('/visit-us')">Visit Us</button>
         </li>
         <li class="nav-item">
-          <button mat-button (click)="navigate('/contact')">Contact</button>
+          <button mat-button class="menu-button" (click)="navigate('/contact')">Contact</button>
         </li>
         <li class="nav-item">
-          <button mat-button>Give</button>
+          <button mat-button class="menu-button">Give</button>
         </li>
         <li class="nav-item">
-          <button mat-button (click)="navigate('/live')">Live</button>
+          <button mat-button class="menu-button" (click)="navigate('/live')">Live</button>
         </li>
       </ul>
     </div>

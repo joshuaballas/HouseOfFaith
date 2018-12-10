@@ -6,13 +6,9 @@ import { VisionComponent } from './vision/vision.component';
 import { LeadershipComponent } from './leadership/leadership.component';
 
 export const routes: Routes = [
-  {
-    path: '', pathMatch: 'full', children: [
-      { path: 'who-we-are', component: WhoWeAreComponent, data: { title: 'Who We Are' } },
-      { path: 'vision', component: VisionComponent, data: { title: 'Vision' } },
-      { path: 'leadership', component: LeadershipComponent, data: { title: 'Leadership' } }
-    ]
-  }
+  { path: 'who-we-are', component: WhoWeAreComponent, data: { title: 'Who We Are' } },
+  { path: 'vision', component: VisionComponent, data: { title: 'Vision' } },
+  { path: 'leadership', component: LeadershipComponent, data: { title: 'Leadership' } }
 ];
 
 @NgModule({

@@ -5,6 +5,8 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { appRoutes } from './app.routes';
 
+import { TitleService } from './shared/services/title.service';
+
 import { MaterialModule } from './shared/material.module';
 import { SharedModule } from './shared/shared.module';
 
@@ -28,7 +30,7 @@ import { HomeComponent } from './home/home.component';
     SharedModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [TitleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

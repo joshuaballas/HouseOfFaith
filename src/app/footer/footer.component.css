@@ -28,3 +28,9 @@ p {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
+@media (max-width: 769px) {
+  .logo, .info {
+    margin-top: 25px;
+  }
+}
