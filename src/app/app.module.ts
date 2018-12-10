@@ -12,7 +12,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { VisitComponent } from './visit/visit.component';
 import { ContactComponent } from './contact/contact.component';
-import { GiveComponent } from './give/give.component';
 import { LiveComponent } from './live/live.component';
 import { WhoWeAreComponent } from './about/who-we-are/who-we-are.component';
 import { VisionComponent } from './about/vision/vision.component';
@@ -26,7 +25,6 @@ import { LeadershipComponent } from './about/leadership/leadership.component';
     HomeComponent,
     VisitComponent,
     ContactComponent,
-    GiveComponent,
     LiveComponent,
     WhoWeAreComponent,
     VisionComponent,

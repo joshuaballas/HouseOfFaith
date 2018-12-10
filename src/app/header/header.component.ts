@@ -7,8 +7,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  public isCollapsed = true;
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    this.router.events.subscribe(() => {
+      if (!this.isCollapsed) { this.isCollapsed = true; }
+    });
+  }
 
   public navigate(path = '') {
     this.router.navigateByUrl(path);

@@ -1,0 +1,21 @@
+.social-bar {
+  margin-top: 25px;
+}
+
+.social-bar:hover > a > .fab {
+  color: rgba(0, 0, 0, .5);
+}
+
+.social-bar > a > .fab {
+  color: black;
+  margin-right: 15px;
+  transition: color .5s;
+}
+
+.social-bar > a:hover > .fab {
+  color: black;
+}
+
+footer {
+  padding: 6vw;
+}

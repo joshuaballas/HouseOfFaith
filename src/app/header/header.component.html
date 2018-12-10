@@ -1,32 +1,38 @@
-<nav class="navbar">
+<nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
     <a class="col-8 col-md-4" routerLink="" style="padding: 0;">
       <img class="img-fluid" src="../../assets/images/HoF Logo.png">
     </a>
-    <ul class="nav nav-right mt-2 mt-lg-0">
-      <li class="nav-item">
-        <button mat-button (click)="navigate()">Home</button>
-      </li>
-      <li class="nav-item">
-        <button mat-button [matMenuTriggerFor]="aboutMenu">About</button>
-        <mat-menu #aboutMenu="matMenu">
-          <button mat-menu-item (click)="navigate('/about/who-we-are')">Who We Are</button>
-          <button mat-menu-item (click)="navigate('/about/vision')">Vision</button>
-          <button mat-menu-item (click)="navigate('/about/leadership')">Leadership</button>
-        </mat-menu>
-      </li>
-      <li class="nav-item">
-        <button mat-button (click)="navigate('/visit-us')">Visit Us</button>
-      </li>
-      <li class="nav-item">
-        <button mat-button (click)="navigate('/contact')">Contact</button>
-      </li>
-      <li class="nav-item">
-        <button mat-button>Give</button>
-      </li>
-      <li class="nav-item">
-        <button mat-button (click)="navigate('/live')">Live</button>
-      </li>
-    </ul>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+      (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <button mat-button (click)="navigate()">Home</button>
+        </li>
+        <li class="nav-item">
+          <button mat-button [matMenuTriggerFor]="aboutMenu">About</button>
+          <mat-menu #aboutMenu="matMenu">
+            <button mat-menu-item (click)="navigate('/about/who-we-are')">Who We Are</button>
+            <button mat-menu-item (click)="navigate('/about/vision')">Vision</button>
+            <button mat-menu-item (click)="navigate('/about/leadership')">Leadership</button>
+          </mat-menu>
+        </li>
+        <li class="nav-item">
+          <button mat-button (click)="navigate('/visit-us')">Visit Us</button>
+        </li>
+        <li class="nav-item">
+          <button mat-button (click)="navigate('/contact')">Contact</button>
+        </li>
+        <li class="nav-item">
+          <button mat-button>Give</button>
+        </li>
+        <li class="nav-item">
+          <button mat-button (click)="navigate('/live')">Live</button>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
