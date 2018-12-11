@@ -1,5 +1,7 @@
 import { Routes } from '@angular/router';
 
+import { CanLoadLiveRouteGuard } from './header/header.guard';
+
 import { HomeComponent } from './home/home.component';
 
 export const appRoutes: Routes = [
@@ -23,6 +25,7 @@ export const appRoutes: Routes = [
   },
   {
     path: 'live', data: { title: 'Live' },
+    canActivate: [CanLoadLiveRouteGuard],
     loadChildren: './live/live.module#LiveModule'
   },
   { path: '**', component: HomeComponent }

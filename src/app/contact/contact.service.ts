@@ -13,8 +13,7 @@ export class ContactService {
 }
 
 export interface Email {
-  firstName?: string;
-  lastName?: string;
+  name?: string;
   email?: string;
   subject?: string;
   message?: string;
