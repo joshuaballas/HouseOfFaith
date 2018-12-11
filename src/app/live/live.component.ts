@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-live',
   templateUrl: './live.component.html',
   styleUrls: ['./live.component.css']
 })
-export class LiveComponent implements OnInit {
+export class LiveComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }

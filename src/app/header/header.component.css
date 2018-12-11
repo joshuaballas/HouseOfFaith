@@ -45,3 +45,11 @@ button {
 .menu-button {
   width: 100%;
 }
+
+.red-dot {
+  height: 5px;
+  width: 5px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}

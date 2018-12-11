@@ -1,0 +1,32 @@
+#staff {
+    padding: 50px;
+}
+
+.row {
+    margin-bottom: 25px;
+}
+
+.button {
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: .1em;
+    padding: 0 15px !important;
+}
+
+.button-link {
+    border: solid 2px black;
+    transition: 0.3s;
+}
+
+.button-link:hover {
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 769px) {
+    mat-card {
+        margin-top: 30px;
+    }
+}
