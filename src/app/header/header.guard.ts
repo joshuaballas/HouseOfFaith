@@ -1,16 +1,20 @@
 import { Injectable } from '@angular/core';
-import { CanActivate } from '@angular/router';
+import { Router, CanActivate } from '@angular/router';
 
 import { YouTubeService } from '../shared/services/youtube.service';
 
 @Injectable()
 export class CanLoadLiveRouteGuard implements CanActivate {
-  constructor(private _yts: YouTubeService) { }
+  constructor(
+    private _yts: YouTubeService,
+    private router: Router
+    ) { }
 
   canActivate(): boolean {
     if (this._yts.isLive) {
       return true;
     } else {
+      this.router.navigateByUrl('/home');
       return false;
     }
   }

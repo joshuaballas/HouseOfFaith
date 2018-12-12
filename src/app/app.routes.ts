@@ -28,5 +28,5 @@ export const appRoutes: Routes = [
     canActivate: [CanLoadLiveRouteGuard],
     loadChildren: './live/live.module#LiveModule'
   },
-  { path: '**', component: HomeComponent }
+  { path: '**', component: HomeComponent, data: { title: 'Home' } }
 ];
