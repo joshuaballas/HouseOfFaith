@@ -1,23 +1,7 @@
-#ministries {
+#vision {
   padding: 50px;
 }
 
 .header {
   margin-top: 50px;
-}
-
-.ministry-block {
-  margin-bottom: 50px;
-}
-
-.ministry-social > span {
-  margin-right: 20px;
-}
-
-.ministry-social > span > a > i:hover {
-  cursor: pointer;
-}
-
-.fab, .fas {
-  color: black;
 }

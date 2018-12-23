@@ -16,6 +16,10 @@ export const appRoutes: Routes = [
     loadChildren: './about/about.module#AboutModule'
   },
   {
+    path: 'ministries', data: { title: 'Ministries' },
+    loadChildren: './ministries/ministries.module#MinistriesModule'
+  },
+  {
     path: 'visit-us', data: { title: 'Visit Us' },
     loadChildren: './visit/visit.module#VisitModule'
   },

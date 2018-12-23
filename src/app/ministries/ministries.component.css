@@ -1,0 +1,29 @@
+#ministries {
+  padding: 50px;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.ministry-block {
+  margin-bottom: 50px;
+}
+
+.ministry-social>span {
+  margin-right: 20px;
+}
+
+.ministry-social>span>a>i {
+  transition: color .25s;
+}
+
+.ministry-social>span>a>i:hover {
+  cursor: pointer;
+  color: #9c9c9c;
+}
+
+.fab,
+.fas {
+  color: black;
+}

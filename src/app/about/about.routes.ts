@@ -4,11 +4,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { VisionComponent } from './vision/vision.component';
 import { LeadershipComponent } from './leadership/leadership.component';
+import { WhatWeBelieveComponent } from './what-we-believe/what-we-believe.component';
 import { IsackWanjohiComponent } from './leadership/isack-wanjohi/isack-wanjohi.component';
 
 export const routes: Routes = [
   { path: 'who-we-are', component: WhoWeAreComponent, data: { title: 'Who We Are' } },
   { path: 'vision', component: VisionComponent, data: { title: 'Vision' } },
+  { path: 'what-we-believe', component: WhatWeBelieveComponent, data: { title: 'What We Believe' } },
   {
     path: 'leadership', children: [
       { path: '', component: LeadershipComponent, data: { title: 'Leadership' } },

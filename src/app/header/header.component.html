@@ -17,8 +17,12 @@
           <mat-menu #aboutMenu="matMenu">
             <button mat-menu-item (click)="navigate('/about/who-we-are')">Who We Are</button>
             <button mat-menu-item (click)="navigate('/about/vision')">Vision</button>
+            <button mat-menu-item (click)="navigate('/about/what-we-believe')">What We Believe</button>
             <button mat-menu-item (click)="navigate('/about/leadership')">Leadership</button>
           </mat-menu>
+        </li>
+        <li class="nav-item">
+          <button mat-button class="menu-button" (click)="navigate('/ministries')">Ministries</button>
         </li>
         <li class="nav-item">
           <button mat-button class="menu-button" (click)="navigate('/visit-us')">Visit Us</button>
