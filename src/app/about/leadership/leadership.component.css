@@ -39,7 +39,7 @@ mat-card {
 
 mat-card-actions {
   position: absolute;
-  padding-bottom: 8px !important;
+  padding-bottom: 10px !important;
   padding-right: 15px;
   width: 100%;
   bottom: 5px;
