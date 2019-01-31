@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { trigger, transition, style, animate, query, stagger } from '@angular/animations';
 
 @Component({
-  selector: 'app-what-we-believe',
-  templateUrl: './what-we-believe.component.html',
-  styleUrls: ['./what-we-believe.component.css'],
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css'],
   animations: [
     trigger('listAnimation', [
       transition('* => *', [
@@ -23,7 +23,7 @@ import { trigger, transition, style, animate, query, stagger } from '@angular/an
     ])
   ]
 })
-export class WhatWeBelieveComponent {
+export class AboutComponent {
   public listItems = [
     'We believe the Bible to be the inspired, the only infallible, authoritative Word of God and inerrant in the original writings.',
     'We believe that there is one God, eternally existing in three persons: Father, Son, and Holy Spirit.',

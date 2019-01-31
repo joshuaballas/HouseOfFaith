@@ -12,8 +12,12 @@ export const appRoutes: Routes = [
     data: { title: 'Home' }
   },
   {
-    path: 'about',
+    path: 'about', data: { title: 'About' },
     loadChildren: './about/about.module#AboutModule'
+  },
+  {
+    path: 'leadership',
+    loadChildren: './leadership/leadership.module#LeadershipModule'
   },
   {
     path: 'ministries', data: { title: 'Ministries' },

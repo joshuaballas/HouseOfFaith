@@ -1,5 +1,5 @@
-<div class="container text-center">
-  <section id="whoWeAre">
+<div class="container">
+  <section id="whoWeAre" class="text-center">
     <h1>WHO WE ARE</h1>
     <div class="row header">
       <div class="col-12">
@@ -17,6 +17,30 @@
           touched her and the voices stopped. She’s been free ever since and she knows it happened here because she
           felt safe enough to stay long enough to receive the healing the Lord has prepared for her.
         </p>
+      </div>
+    </div>
+  </section>
+  <section id="vision" class="text-center">
+    <h1>VISION</h1>
+    <div class="row header">
+      <div class="col-12">
+        <p>
+          The vision of House of Faith is to empower others to serve mightily in the Kingdom of God. The Lord called us
+          to a Saturday night work and showed us that the congregation would be made up of row upon row of Ministries;
+          that those Ministries would gather together to worship and to be built up. Then they would disburse into the
+          community, touching others for the Kingdom’s Sake. Below are a few that always needs volunteers. Please pray
+          about how you can get involved.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="whatWeBelieve">
+    <h1 class="text-center">WHAT WE BELIEVE</h1>
+    <div class="row header">
+      <div class="col-12">
+        <ul [@listAnimation]="true">
+          <li *ngFor="let item of listItems">{{item}}</li>
+        </ul>
       </div>
     </div>
   </section>

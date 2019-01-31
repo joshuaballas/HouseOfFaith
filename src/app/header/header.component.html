@@ -3,8 +3,8 @@
     <a class="col-8 col-md-4" routerLink="" style="padding: 0;">
       <img class="img-fluid" src=".../../assets/images/hof_logo.png">
     </a>
-    <button class="navbar-toggler ml-auto text-center" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
-      (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed">
+    <button class="navbar-toggler ml-auto text-center" type="button" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav" [class.show]="!isCollapsed">
@@ -13,13 +13,10 @@
           <button mat-button class="menu-button" (click)="navigate()">Home</button>
         </li>
         <li class="nav-item">
-          <button mat-button class="menu-button" [matMenuTriggerFor]="aboutMenu">About</button>
-          <mat-menu #aboutMenu="matMenu">
-            <button mat-menu-item (click)="navigate('/about/who-we-are')">Who We Are</button>
-            <button mat-menu-item (click)="navigate('/about/vision')">Vision</button>
-            <button mat-menu-item (click)="navigate('/about/what-we-believe')">What We Believe</button>
-            <button mat-menu-item (click)="navigate('/about/leadership')">Leadership</button>
-          </mat-menu>
+          <button mat-button class="menu-button" (click)="navigate('/about')">About</button>
+        </li>
+        <li class="nav-item">
+          <button mat-button class="menu-button" (click)="navigate('/leadership')">Leadership</button>
         </li>
         <li class="nav-item">
           <button mat-button class="menu-button" (click)="navigate('/ministries')">Ministries</button>
