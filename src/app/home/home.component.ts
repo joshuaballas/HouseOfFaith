@@ -8,6 +8,6 @@ import { NavigationService } from '../shared/services/navigation.service';
 })
 export class HomeComponent {
 
-  constructor(private _nav: NavigationService) { }
+  constructor(public _nav: NavigationService) { }
 
 }

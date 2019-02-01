@@ -14,7 +14,7 @@ export class HeaderComponent {
 
   constructor(
     private router: Router,
-    private _nav: NavigationService,
+    public _nav: NavigationService,
     private _yts: YouTubeService
   ) {
     this.router.events.subscribe(() => {
