@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { NavigationService } from '../shared/services/navigation.service';
 import { YouTubeService } from '../shared/services/youtube.service';
 
 @Component({
@@ -13,6 +14,7 @@ export class HeaderComponent {
 
   constructor(
     private router: Router,
+    private _nav: NavigationService,
     private _yts: YouTubeService
   ) {
     this.router.events.subscribe(() => {
@@ -21,10 +23,6 @@ export class HeaderComponent {
 
     this.youtubeLiveCheck();
     setInterval(this.youtubeLiveCheck.bind(this), 300 * 1000);
-  }
-
-  public navigate(path = '') {
-    this.router.navigateByUrl(path);
   }
 
   public youtubeLiveCheck() {

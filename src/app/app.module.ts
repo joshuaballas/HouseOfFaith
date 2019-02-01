@@ -7,6 +7,7 @@ import { appRoutes } from './app.routes';
 
 import { TitleService } from './shared/services/title.service';
 import { YouTubeService } from './shared/services/youtube.service';
+import { NavigationService } from './shared/services/navigation.service';
 
 import { CanLoadLiveRouteGuard } from './header/header.guard';
 
@@ -39,6 +40,7 @@ import { environment } from '../environments/environment';
   providers: [
     TitleService,
     YouTubeService,
+    NavigationService,
     CanLoadLiveRouteGuard
   ],
   bootstrap: [AppComponent]
