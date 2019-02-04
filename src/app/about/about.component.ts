@@ -27,8 +27,8 @@ export class AboutComponent {
   public listItems = [
     'We believe the Bible to be the inspired, the only infallible, authoritative Word of God and inerrant in the original writings.',
     'We believe that there is one God, eternally existing in three persons: Father, Son, and Holy Spirit.',
-    'We believe in the deity of our Lord Jesus Christ, in His virgin birth, in His sinless life, in His' +
-    'miracles, in His vicarious and atoning death through His shed blood, in His bodily resurrection, in His' +
+    'We believe in the deity of our Lord Jesus Christ, in His virgin birth, in His sinless life, in His ' +
+    'miracles, in His vicarious and atoning death through His shed blood, in His bodily resurrection, in His ' +
     'ascension to the right hand of the Father, and in His personal return in power and glory.',
     'We believe that the lost and sinful man must be saved, and that man\'s only hope of redemption is through the shed blood of Jesus Christ, the Son of God.',
     'We believe in and practice the holy ordinance of water baptism, which signifies the believer\'s death, burial, and resurrection into new life with Christ Jesus.',
