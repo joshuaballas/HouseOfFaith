@@ -58,6 +58,11 @@
 
 .station-info {
   margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.station-info p {
+  margin: 0;
 }
 
 .iframe-container {
