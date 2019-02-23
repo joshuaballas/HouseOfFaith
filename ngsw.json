@@ -1,0 +1,125 @@
+{
+  "configVersion": 1,
+  "index": "https://houseoffaithchurch.org/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://houseoffaithchurch.org/4.06c1dd607734076f9d54.js",
+        "https://houseoffaithchurch.org/5.bd74258d6d48a351b3b4.js",
+        "https://houseoffaithchurch.org/6.dd4716777ae95fefa110.js",
+        "https://houseoffaithchurch.org/7.1ebde50ba47c3299aa4e.js",
+        "https://houseoffaithchurch.org/8.a590dc785a1f45fa607a.js",
+        "https://houseoffaithchurch.org/9.affad6ec828a31e3f0e3.js",
+        "https://houseoffaithchurch.org/fa-brands-400.292a5648655a59b04cae.woff",
+        "https://houseoffaithchurch.org/fa-brands-400.87b76b96d1d061e808d1.woff2",
+        "https://houseoffaithchurch.org/fa-brands-400.f83bc05a0646ef0e5c0f.ttf",
+        "https://houseoffaithchurch.org/fa-regular-400.732726c56cad903eea86.woff2",
+        "https://houseoffaithchurch.org/fa-regular-400.abde9e52ad7a7d5efed0.ttf",
+        "https://houseoffaithchurch.org/fa-regular-400.b4cfd518920e355655c0.woff",
+        "https://houseoffaithchurch.org/fa-solid-900.bed3b0a702ad38e11e30.woff2",
+        "https://houseoffaithchurch.org/fa-solid-900.d751e66bf89b743056cb.ttf",
+        "https://houseoffaithchurch.org/fa-solid-900.e0c419cf350f3152d531.woff",
+        "https://houseoffaithchurch.org/favicon.ico",
+        "https://houseoffaithchurch.org/index.html",
+        "https://houseoffaithchurch.org/main.f220d0b61d31a9996073.js",
+        "https://houseoffaithchurch.org/polyfills.742b9890e5aae225e4ab.js",
+        "https://houseoffaithchurch.org/runtime.2ce51d9f0ae83ec775a3.js",
+        "https://houseoffaithchurch.org/scripts.7bae23f8e8303d65b966.js",
+        "https://houseoffaithchurch.org/styles.2136de98d9205e1052a8.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://houseoffaithchurch.org/assets/icons/icon-128x128.png",
+        "https://houseoffaithchurch.org/assets/icons/icon-144x144.png",
+        "https://houseoffaithchurch.org/assets/icons/icon-152x152.png",
+        "https://houseoffaithchurch.org/assets/icons/icon-192x192.png",
+        "https://houseoffaithchurch.org/assets/icons/icon-384x384.png",
+        "https://houseoffaithchurch.org/assets/icons/icon-512x512.png",
+        "https://houseoffaithchurch.org/assets/icons/icon-72x72.png",
+        "https://houseoffaithchurch.org/assets/icons/icon-96x96.png",
+        "https://houseoffaithchurch.org/assets/images/barn.jpg",
+        "https://houseoffaithchurch.org/assets/images/hof_footer.png",
+        "https://houseoffaithchurch.org/assets/images/hof_logo.png",
+        "https://houseoffaithchurch.org/assets/images/homepage-1.jpg",
+        "https://houseoffaithchurch.org/assets/images/homepage-2.jpg",
+        "https://houseoffaithchurch.org/assets/images/outline_email_white_18dp.png",
+        "https://houseoffaithchurch.org/assets/images/staff/chris.JPG",
+        "https://houseoffaithchurch.org/assets/images/staff/conrade_lisa.jpg",
+        "https://houseoffaithchurch.org/assets/images/staff/isack.jpg",
+        "https://houseoffaithchurch.org/assets/images/staff/paul_georgeanne.jpg",
+        "https://houseoffaithchurch.org/assets/images/staff/skip.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://houseoffaithchurch.org/4.06c1dd607734076f9d54.js": "0e06462bdc27c7d200d683b8e21fbccbd29f3313",
+    "https://houseoffaithchurch.org/5.bd74258d6d48a351b3b4.js": "55445d783c6fe610c500c7fd349ea74572711782",
+    "https://houseoffaithchurch.org/6.dd4716777ae95fefa110.js": "b426a9889968e3c3b0d99efd6de1eef257059ef2",
+    "https://houseoffaithchurch.org/7.1ebde50ba47c3299aa4e.js": "beadb68569b2c88bdfc5ed7780da707965d8ec84",
+    "https://houseoffaithchurch.org/8.a590dc785a1f45fa607a.js": "17bb29d4fee562c30fd741f1d04af2ee1302e2a8",
+    "https://houseoffaithchurch.org/9.affad6ec828a31e3f0e3.js": "6e9a615b66c4d5d797abc8a7e12ce71a05c919bb",
+    "https://houseoffaithchurch.org/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://houseoffaithchurch.org/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://houseoffaithchurch.org/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://houseoffaithchurch.org/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://houseoffaithchurch.org/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://houseoffaithchurch.org/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://houseoffaithchurch.org/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://houseoffaithchurch.org/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://houseoffaithchurch.org/assets/images/barn.jpg": "381ea4bfe8891ec5001db6bb21783f489e2a8720",
+    "https://houseoffaithchurch.org/assets/images/hof_footer.png": "7b1a09b83ce05be9b8e75330f28c2396b868aca4",
+    "https://houseoffaithchurch.org/assets/images/hof_logo.png": "648672c1964a4536f0706578e0177dd54b83bb6a",
+    "https://houseoffaithchurch.org/assets/images/homepage-1.jpg": "45b48ec7f7de884ece1f7c6087ee3bc01bb31909",
+    "https://houseoffaithchurch.org/assets/images/homepage-2.jpg": "c3154e7f2ab4342c66f997d61054cd4258264c1a",
+    "https://houseoffaithchurch.org/assets/images/outline_email_white_18dp.png": "2aadc58098209658f9bf4da99ad115eb5d7956c0",
+    "https://houseoffaithchurch.org/assets/images/staff/chris.JPG": "5aae34916736046941df372d0e2d2c2921223463",
+    "https://houseoffaithchurch.org/assets/images/staff/conrade_lisa.jpg": "47cfaee50f768acd96993fa876f677cb32a25d35",
+    "https://houseoffaithchurch.org/assets/images/staff/isack.jpg": "fb79edde9ca9494b7d23c8f5315f7af482170827",
+    "https://houseoffaithchurch.org/assets/images/staff/paul_georgeanne.jpg": "e5c000623c7de826369d637a5b49aef67bba92b1",
+    "https://houseoffaithchurch.org/assets/images/staff/skip.jpg": "f1d11bc58b4d7ede2a7134803c4b1524b0ff412d",
+    "https://houseoffaithchurch.org/fa-brands-400.292a5648655a59b04cae.woff": "ebb0179e4049f3329324722a3ed0a364339c3508",
+    "https://houseoffaithchurch.org/fa-brands-400.87b76b96d1d061e808d1.woff2": "4e07937f25db2eccc10252d051a3a3d3a4fda174",
+    "https://houseoffaithchurch.org/fa-brands-400.f83bc05a0646ef0e5c0f.ttf": "2185b84f377283b7d9b8869f48ae364c26ba9dd3",
+    "https://houseoffaithchurch.org/fa-regular-400.732726c56cad903eea86.woff2": "57d4344269954a543a47056a323b3ad2b9a447e6",
+    "https://houseoffaithchurch.org/fa-regular-400.abde9e52ad7a7d5efed0.ttf": "841351029cc3b8a39651925c3b4c56a3fe149b9c",
+    "https://houseoffaithchurch.org/fa-regular-400.b4cfd518920e355655c0.woff": "16f7440f6f4ec9f680a53507cf9c757c444c10d4",
+    "https://houseoffaithchurch.org/fa-solid-900.bed3b0a702ad38e11e30.woff2": "9323e360d99eef65b5a8a33eeb8ca1197745a4a5",
+    "https://houseoffaithchurch.org/fa-solid-900.d751e66bf89b743056cb.ttf": "1fb5cdd9d2870d97baf996b6cfc93b133b30e400",
+    "https://houseoffaithchurch.org/fa-solid-900.e0c419cf350f3152d531.woff": "66aed813b0b1c58bff41ba6335faf86e701c8833",
+    "https://houseoffaithchurch.org/favicon.ico": "61b5d9118a29e1dbc7912cf2f0ec8614dd62ce52",
+    "https://houseoffaithchurch.org/index.html": "2785e5890985c158eddab2afdfb4c0785e8fc711",
+    "https://houseoffaithchurch.org/main.f220d0b61d31a9996073.js": "b5d5dc0a76d1c1b29542bc3c56aeecafc190bb53",
+    "https://houseoffaithchurch.org/polyfills.742b9890e5aae225e4ab.js": "996d792a1066074b16384bfbb0e737a75870d422",
+    "https://houseoffaithchurch.org/runtime.2ce51d9f0ae83ec775a3.js": "996a002ec8d1df6d2deb091d8ed92db544b568e5",
+    "https://houseoffaithchurch.org/scripts.7bae23f8e8303d65b966.js": "645721919063438b8a1204c1c60c72f221760cb4",
+    "https://houseoffaithchurch.org/styles.2136de98d9205e1052a8.css": "6e470c6f65bbc541d360af450bda3fa7610cf544"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
