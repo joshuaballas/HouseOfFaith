@@ -30,7 +30,7 @@
         <li class="nav-item">
           <button mat-button class="menu-button" onclick="window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2B5VSN4G3FGTL&source=url')">Give</button>
         </li>
-        <li class="nav-item" *ngIf="isLive">
+        <li class="nav-item">
           <button mat-button class="menu-button" (click)="_nav.navigate('/live')">
             <span class="red-dot"></span> Live
           </button>

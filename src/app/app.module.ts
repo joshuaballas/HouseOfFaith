@@ -6,10 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { appRoutes } from './app.routes';
 
 import { TitleService } from './shared/services/title.service';
-import { YouTubeService } from './shared/services/youtube.service';
 import { NavigationService } from './shared/services/navigation.service';
-
-import { CanLoadLiveRouteGuard } from './header/header.guard';
 
 import { MaterialModule } from './shared/material.module';
 import { SharedModule } from './shared/shared.module';
@@ -39,9 +36,7 @@ import { environment } from '../environments/environment';
   ],
   providers: [
     TitleService,
-    YouTubeService,
-    NavigationService,
-    CanLoadLiveRouteGuard
+    NavigationService
   ],
   bootstrap: [AppComponent]
 })
