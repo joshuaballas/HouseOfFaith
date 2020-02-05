@@ -22,7 +22,7 @@ export class HeaderComponent {
     });
 
     this.youtubeLiveCheck();
-    setInterval(this.youtubeLiveCheck.bind(this), 300 * 1000);
+    // setInterval(this.youtubeLiveCheck.bind(this), 300 * 1000);
   }
 
   public youtubeLiveCheck() {
