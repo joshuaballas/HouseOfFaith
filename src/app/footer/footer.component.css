@@ -2,17 +2,20 @@
   margin-top: 25px;
 }
 
-.social-bar > a > .fab {
+.social-bar > a > .fab,
+.social-bar > a > .fas {
   color: black;
   margin-right: 15px;
   transition: color .5s;
 }
 
-.social-bar:hover > a > .fab {
+.social-bar:hover > a > .fab,
+.social-bar:hover > a > .fas {
   color: rgba(0, 0, 0, .5);
 }
 
-.social-bar > a:hover > .fab {
+.social-bar > a:hover > .fab,
+.social-bar > a:hover > .fas {
   color: black;
 }
 
